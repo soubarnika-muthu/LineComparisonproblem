@@ -4,6 +4,8 @@ namespace LineComparisonProblem
 {
     class Program
     {
+      
+
         const int EQUALITY = 0;
 
         /// <summary>
@@ -12,7 +14,8 @@ namespace LineComparisonProblem
         /// UC3 - Comparing the two line based on end points
         /// </summary>
         /// <param name="args">The arguments.</param>
-        static void Main(string[] args)
+
+        public static int ComparingTwolines()
         {
             //creating object for Random class
             Random random = new Random();
@@ -51,7 +54,7 @@ namespace LineComparisonProblem
             {
                 Console.WriteLine("Two lines are Equal");
             }
-            Console.Read();
+            return 0;
         }
 
 
@@ -63,5 +66,12 @@ namespace LineComparisonProblem
 
         }
 
+
+        static void Main(String[] args)
+        {
+            ComparingTwolines();
+        }
     }
-}
+  }
+
+
